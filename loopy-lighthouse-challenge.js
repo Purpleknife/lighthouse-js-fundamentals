@@ -4,7 +4,7 @@ while (x <= 200) { //The condition is x<=200, the loop will stop at 200.
     console.log('LoopyLighthouse');
   } else if (x % 3 === 0) { //If x is a multiple of 3.
     console.log('Loopy');
-  } else if (x % 4 === 0) { //If x is a multiple of 3.
+  } else if (x % 4 === 0) { //If x is a multiple of 4.
     console.log('Lighthouse'); 
   } else {
     console.log(x); //If none of the above, just print the number.

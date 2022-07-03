@@ -43,3 +43,17 @@ if (temperature < -40 || temperature > 40) {
 if (!raining) {
   console.log("Leave your umbrella at home!");
 }
+
+//"Conditionals - whichSchool" Challenge:
+const whichSchool  = function (age) {
+  //We are using if, else if and else statemets to determine which School to attend depending on age.
+    if ( age < 13 ) {
+      return 'Elementary School';
+    } else if ( age >= 13 && age <= 18 ) {
+      return 'Secondary School';
+    } else {
+      return 'Lighthouse Labs';
+    }
+  }
+  console.log("I am 12. Which school should I go to?");
+  console.log(whichSchool(12));

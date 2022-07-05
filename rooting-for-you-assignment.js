@@ -1,3 +1,4 @@
+//Judge vegetables based on the highest metric, be it redness, plumpness or anything else.
 
 const judgeVegetable = function (vegetables, metric) {
 
